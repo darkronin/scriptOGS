@@ -1,0 +1,1 @@
+javascript:(function(){ var f = document.getElementsByClassName('f16'); var histoflag = [], histoflagtitle = [], j = 0; for(var i = 0; i<f.length;i++){ j = histoflagtitle.indexOf( f[i].title ); console.log(f[i].title + " "+ j); if( j == -1 ){ histoflagtitle.push( f[i].title); histoflag.push(1);} else { histoflag[j]++;}}alert(histoflagtitle);})();
